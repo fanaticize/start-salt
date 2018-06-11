@@ -1,4 +1,4 @@
-http service:
+nginx service:
   service.running:
     - name: nginx
     - watch:
