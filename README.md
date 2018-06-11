@@ -1,8 +1,9 @@
 ### 설치방법
-
+```shell
 curl -L https://bootstrap.saltstack.com -o install_salt.sh
 sudo sh install_salt.sh -M -A localhost
 sudo salt-key -A
+```
 
 ### execution 예제
 ```shell
