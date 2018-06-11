@@ -24,5 +24,5 @@ git clone https://github.com/fanaticize/start-salt.git
 
 sudo mv start-salt/salt /srv/salt
 
-sudo salt '*' state.apply install-nginxs pillar='{"port": "8888"}'
+sudo salt '*' state.apply install-nginx pillar='{"port": "8888"}'
 ```
